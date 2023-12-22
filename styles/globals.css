@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 *,
 *::before,
@@ -9,8 +9,69 @@
 }
 
 /* Tags */
+.javascript {
+  border: 0.1rem solid rgb(175, 248, 28);
+}
+.javascript:hover {
+  background: rgba(101, 111, 6, 0.25);
+}
 .react {
   border: 0.1rem solid rgb(97, 218, 251);
+}
+.typescript {
+  border: 0.1rem solid rgb(11, 200, 252);
+}
+.typescript:hover {
+  background: rgba(97, 218, 251, 0.25);
+}
+
+.query {
+  border: 0.1rem solid rgb(67, 11, 252);
+}
+.query:hover {
+  background: rgba(41, 34, 228, 0.25);
+}
+.supabase {
+  border: 0.1rem solid rgb(23, 252, 11);
+}
+.supabase:hover {
+  background: rgba(131, 205, 41, 0.25);
+}
+.rechart-js {
+  border: 0.1rem solid rgb(232, 240, 232);
+}
+.rechart-js:hover {
+  background: rgba(200, 200, 200, 0.25);
+}
+.styled-components {
+  border: 0.1rem solid rgb(190, 226, 190);
+}
+.styled-components:hover {
+  background: rgba(165, 165, 164, 0.25);
+}
+.leaflet {
+  border: 0.1rem solid rgb(0, 255, 0);
+}
+.leaflet:hover {
+  background: rgba(220, 220, 11, 0.366);
+}
+.context-api {
+  border: 0.1rem solid rgb(78, 7, 172);
+}
+.context-api:hover {
+  background: rgba(168, 11, 220, 0.366);
+}
+.json-server {
+  border: 0.1rem solid rgb(176, 233, 8);
+}
+.json-server:hover {
+  background: rgba(203, 231, 23, 0.366);
+}
+.tailwindcss {
+  border: 0.1rem solid rgb(8, 139, 233);
+}
+.tailwindcss:hover {
+  background: rgba(23, 137, 231, 0.366);
 }
 .react:hover {
   background: rgba(97, 218, 251, 0.25);
