@@ -4,27 +4,35 @@
     "name": "Walk Wardrobe",
     "image": "/walkwadrobe.png",
     "description": "Walk Wardrobe-E-Commerce App, a robust and modern web application built to revolutionize the online shopping experience",
-    "tags": ["next", "node", "mongodb", "tailwind"],
-    "source_code": "https://github.com/itsnitinr/driwwwle-v2",
-    "demo": "https://driwwwle.com/"
+    "tags": ["next", "node", "mongodb", "redux", "tailwind"],
+    "source_code": "https://github.com/md-anas-sabah/walk-wardrobe",
+    "demo": "https://walk-wardrobe.vercel.app/"
   },
   {
     "id": 2,
-    "name": "PCB Cupid",
+    "name": "The World Oasis",
     "image": "https://imgur.com/tAZotn3.png",
-    "description": "E-commerce website for a PCB manufacturing company",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "demo": "https://www.pcbcupid.com/"
+    "description": "The Hotel Management System App is a web application built using React and Supabase for database management and authentication purposes.",
+    "tags": [
+      "react",
+      "node",
+      "tanstack query",
+      "supabase",
+      "rechart-js",
+      "styled-components"
+    ],
+    "source_code": "sajnasjn",
+    "demo": ""
   },
   {
     "id": 3,
-    "name": "HealthyWays",
-    "image": "https://imgur.com/8FFqaX8.png",
-    "description": "A food ordering platform for healthy and home-cooked meals",
-    "tags": ["react", "node", "mongodb", "redux", "razorpay", "material-ui"],
-    "source_code": "https://github.com/itsnitinr/healthyways",
-    "demo": "https://healthyways.herokuapp.com/"
-  },
+    "name": "Worldwise",
+    "image": "/worldwise.png",
+    "description": "The web app is a travel tracking and adventure registration application.",
+    "tags": ["react", "node", "leaflet", "context-api", "json-server"],
+    "source_code": "https://github.com/md-anas-sabah/worldwise",
+    "demo": "https://worldwisev1.netlify.app/"
+  }
   {
     "id": 4,
     "name": "VSCode Portfolio",
