@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "The World Oasis",
-    "image": "https://imgur.com/tAZotn3.png",
+    "image": "/wild.png",
     "description": "The Hotel Management System App is a web application built using React and Supabase for database management and authentication purposes.",
     "tags": [
       "javascript",
