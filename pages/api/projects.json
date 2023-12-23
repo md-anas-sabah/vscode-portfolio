@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "name": "The World Oasis",
+    "name": "The Wild Oasis",
     "image": "/wild.png",
     "description": "The Hotel Management System App is a web application built using React and Supabase for database management and authentication purposes.",
     "tags": [
@@ -23,7 +23,7 @@
       "styled-components"
     ],
     "source_code": "https://github.com/md-anas-sabah/hms-world-oasis",
-    "demo": "https://thewild-oasis.netlify.app/login"
+    "demo": "https://hms-world-oasis.vercel.app/"
   },
   {
     "id": 3,
