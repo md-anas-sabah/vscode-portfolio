@@ -20,6 +20,21 @@ const ArticlesPage = ({ articles }) => {
           <ArticleCard key={article.id} article={article} />
         ))} */}
         <ArticleCard
+          url={
+            "https://dev.to/mdanassabah/understanding-json-web-tokens-jwt-3n68"
+          }
+          cover_image={
+            "https://res.cloudinary.com/practicaldev/image/fetch/s--EwnV5kiC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awuv1339bq7ln6orrdec.png"
+          }
+          description={
+            "JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be transferred between two parties. In web development, JWTs are commonly..."
+          }
+          title={"Understanding JSON Web Tokens (JWT)"}
+          page_views_count={">25"}
+          public_reactions_count={"5"}
+          comments_count={"0"}
+        />
+        <ArticleCard
           url={"https://dev.to/mdanassabah/typescript-react-2d4b"}
           cover_image={
             "https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png"
