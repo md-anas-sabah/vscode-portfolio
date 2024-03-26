@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "name": "Dev SyncSpace",
+    "image": "/syncspace.png",
+    "description": "Dev SyncSpace is a web application designed to facilitate pair programming sessions with random developers.",
+    "tags": ["typescript", "next", "node", "postgressql", "tailwind"],
+    "source_code": "https://github.com/md-anas-sabah/dev-sync-space",
+    "demo": "https://dev-sync-space-production.up.railway.app/"
+  },
+  {
+    "id": 2,
     "name": "Walk Wardrobe",
     "image": "/walkwadrobe.png",
     "description": "Walk Wardrobe-E-Commerce App, a robust and modern web application built to revolutionize the online shopping experience",
@@ -9,7 +18,7 @@
     "demo": "https://walk-wardrobe.vercel.app/"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "The Wild Oasis",
     "image": "/wild.png",
     "description": "The Hotel Management System App is a web application built using React and Supabase for database management and authentication purposes.",
@@ -26,7 +35,7 @@
     "demo": "https://hms-world-oasis.vercel.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Worldwise",
     "image": "/worldwise.png",
     "description": "The web app is a travel tracking and adventure registration application.",
@@ -42,7 +51,7 @@
     "demo": "https://worldwisev1.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Wordle",
     "image": "/wordle.png",
     "description": "Wordle Game Web App, a fun and interactive word-guessing experience built with Next.js, TypeScript, and Tailwind CSS!",

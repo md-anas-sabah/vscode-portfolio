@@ -12,6 +12,9 @@
 .javascript {
   border: 0.1rem solid rgb(175, 248, 28);
 }
+.postgressql {
+  border: 0.1rem solid rgb(189, 21, 250);
+}
 .javascript:hover {
   background: rgba(101, 111, 6, 0.25);
 }
