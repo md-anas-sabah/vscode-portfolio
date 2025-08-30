@@ -133,7 +133,14 @@ const AboutPage = () => {
 
 export async function getStaticProps() {
   return {
-    props: { title: "About" },
+    props: { 
+      title: "About",
+      description: "Learn about Md Anas Sabah - Full Stack Developer & AI Enthusiast from India. Expert in React, Next.js, Node.js, Python, MongoDB, PostgreSQL. Building scalable web applications and AI-driven solutions.",
+      keywords: "md anas sabah about, full stack developer india, react developer, next.js expert, node.js developer, ai developer, chandigarh university graduate, mern stack developer, python developer, software engineer portfolio",
+      ogTitle: "About Md Anas Sabah - Full Stack Developer & AI Expert",
+      ogDescription: "Passionate full-stack developer from India specializing in React, Next.js, AI agents, and scalable web applications. Graduate of Chandigarh University with 300+ npm package downloads.",
+      url: "https://anassabahportfolio.vercel.app/about"
+    },
   };
 }
 

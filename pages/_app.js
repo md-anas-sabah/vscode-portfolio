@@ -20,7 +20,14 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <Head title={`Md Anas Sabah | ${pageProps.title}`} />
+      <Head 
+        title={`Md Anas Sabah | ${pageProps.title}`}
+        description={pageProps.description}
+        keywords={pageProps.keywords}
+        ogTitle={pageProps.ogTitle}
+        ogDescription={pageProps.ogDescription}
+        url={pageProps.url}
+      />
       <Component {...pageProps} />
     </Layout>
   );
