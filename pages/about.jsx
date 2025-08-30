@@ -1,46 +1,131 @@
 const AboutPage = () => {
   return (
     <div className="about">
-      <h2>A Little Bit About Me</h2>
-      <p>
-        Hello there! 👋 I'm Md Anas Sabah, a passionate and creative computer
-        science graduate from Chandigarh University. Standing tall at 6ft, I
-        bring a towering enthusiasm for front-end development and a love for
-        crafting seamless digital experiences.
+      <h2
+        style={{
+          marginBottom: "10px",
+        }}
+      >
+        A Little Bit About Me
+      </h2>
+      <p
+        style={{
+          marginBottom: "30px",
+        }}
+      >
+        Hello there! 👋 I'm Md Anas Sabah, a software developer from India and a
+        proud graduate of Chandigarh University. I love building sleek,
+        scalable, and smart applications from pixel-perfect UIs to powerful
+        backends and AI-driven agents that bring ideas to life.
       </p>
 
-      <h3>Education:</h3>
-      <p>
-        I honed my skills at Chandigarh University, specializing in computer
-        science. This journey ignited my curiosity and deepened my understanding
-        of languages like JavaScript, TypeScript, C, C++, HTML, and CSS.
+      <h2
+        style={{
+          marginBottom: "10px",
+        }}
+      >
+        Full-Stack & AI Enthusiast
+      </h2>
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        What started as a love for crafting seamless frontend experiences has
+        grown into a journey of mastering the entire spectrum of software
+        development. Over time, I’ve moved beyond just creating user interfaces
+        to architecting complete systems that are scalable, efficient, and
+        intelligent.
       </p>
-      <h3>Tech Stack:</h3>
-      <p>
-        Proficient in a versatile tech stack, I have hands-on experience with
-        React, Next.js, Tailwind CSS, Redux, PostgreSQL, Express.js, and
-        Node.js. These tools empower me to transform ideas into visually
-        stunning and functional web applications.
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        Along the way, I’ve developed a strong passion for solving complex
+        problems, whether it’s designing modular backend architectures,
+        optimizing performance for real-world use cases, or building AI-driven
+        agents that push the boundaries of automation.
       </p>
-      <h3>Passion for Frontend:</h3>
-      <p>
-        As a frontend developer, I find joy in translating design concepts into
-        interactive and user-friendly interfaces. With a keen eye for detail and
-        a commitment to staying on the cutting edge of web development trends, I
-        strive to create delightful and responsive user experiences.
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        One of my proudest milestones recently has been creating and publishing
+        my own npm package, which in just a month has already been adopted by
+        300+ developers worldwide. This achievement not only reflects my
+        technical expertise but also my commitment to contributing back to the
+        developer community.
       </p>
-      <h3>Problem Solver:</h3>
-      <p>
-        I thrive on challenges and view coding as a problem-solving art. Whether
-        it's implementing complex features or optimizing performance, I approach
-        each task with determination and a solutions-oriented mindset.
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        I believe that building software is not just about writing code, it’s
+        about creating meaningful impact. Each project I take on is an
+        opportunity to merge creativity, logic, and innovation to deliver
+        solutions that truly make a difference.
       </p>
-      <h3>Beyond Coding:</h3>
+      <h2
+        style={{
+          marginBottom: "10px",
+        }}
+      >
+        Tech Stack:
+      </h2>
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        Proficient across the stack, I build responsive UIs with React and
+        Next.js (Tailwind CSS, Redux/Jotai), architect modular APIs with Node.js
+        & Express (and FastAPI in Python), work with PostgreSQL & MongoDB, and
+        implement real-time features using Socket.io. I also ship mobile/desktop
+        apps with React Native & Electron, create AI agents with CrewAI and n8n,
+        automate with ChatGPT APIs, and deploy using Docker on AWS/Firebase with
+        a modern tooling setup (Vite, Webpack, Babel, Git, Postman, Figma)
+      </p>
+      <h2
+        style={{
+          marginBottom: "10px",
+        }}
+      >
+        My Philosophy
+      </h2>
+      <p
+        style={{
+          marginBottom: "20px",
+        }}
+      >
+        I see coding as both an art and a science — combining design, logic, and
+        innovation. I thrive on solving challenges with creativity and
+        precision, whether it’s:
+      </p>
+      <ul
+        style={{
+          marginBottom: "20px",
+          marginLeft: "40px",
+        }}
+      >
+        <li>Designing interactive, user-friendly UIs</li>
+        <li>Architecting modular backend systems</li>
+        <li>Crafting AI-driven agents that handle complex tasks</li>
+      </ul>
+
+      <h2
+        style={{
+          marginBottom: "10px",
+        }}
+      >
+        Beyond Coding:
+      </h2>
       <p>
-        Outside the realm of coding, you might find me exploring the latest tech
-        innovations or experimenting with new design trends. I believe in
-        continuous learning and staying curious in the ever-evolving tech
-        landscape.
+        Outside of development, I’m always experimenting with new technologies,
+        keeping up with AI breakthroughs, and refining my skills to stay ahead
+        in the ever-evolving tech world.
       </p>
     </div>
   );
