@@ -49,32 +49,58 @@ const GithubPage = ({ repos, user }) => {
 };
 
 export async function getStaticProps() {
-  const userRes = await fetch(`https://api.github.com/users/md-anas-sabah`, {
-    headers: {
-      Authorization: `token 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`,
-    },
-  });
-  const user = await userRes.json();
-  console.log(user);
-
-  const repoRes = await fetch(
-    `https://api.github.com/users/md-anas-sabah/repos?per_page=100`,
-    {
-      headers: {
-        Authorization: `token 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`,
-      },
-    }
-  );
-  let repos = await repoRes.json();
-
-  repos = repos
-    .sort((a, b) => a.stargazers_count - b.stargazers_count)
-    .slice(15,20);
-
-  return {
-    props: { title: "GitHub", repos, user },
-    revalidate: 10,
+  // Default fallback data
+  const defaultUser = {
+    login: "md-anas-sabah",
+    avatar_url: "https://github.com/md-anas-sabah.png",
+    public_repos: 0,
+    followers: 0,
   };
+  
+  const defaultRepos = [];
+
+  try {
+    // Try to fetch user data without token first
+    const userRes = await fetch(`https://api.github.com/users/md-anas-sabah`);
+    let user = defaultUser;
+    
+    if (userRes.ok) {
+      const userData = await userRes.json();
+      user = userData;
+      console.log("User data fetched successfully:", userData);
+    } else {
+      console.log("User API failed, using default data");
+    }
+
+    // Try to fetch repos data without token
+    const repoRes = await fetch(
+      `https://api.github.com/users/md-anas-sabah/repos?per_page=100`
+    );
+    let repos = defaultRepos;
+    
+    if (repoRes.ok) {
+      const reposData = await repoRes.json();
+      if (Array.isArray(reposData)) {
+        repos = reposData
+          .sort((a, b) => b.stargazers_count - a.stargazers_count)
+          .slice(0, 5);
+        console.log("Repos data fetched successfully:", repos.length, "repos");
+      }
+    } else {
+      console.log("Repos API failed, using empty array");
+    }
+
+    return {
+      props: { title: "GitHub", repos, user },
+      revalidate: 3600, // Revalidate every hour
+    };
+  } catch (error) {
+    console.error("GitHub API error:", error);
+    return {
+      props: { title: "GitHub", repos: defaultRepos, user: defaultUser },
+      revalidate: 3600,
+    };
+  }
 }
 
 export default GithubPage;

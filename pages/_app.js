@@ -7,11 +7,14 @@ import "./global.css";
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    if (localStorage.getItem("theme")) {
-      document.documentElement.setAttribute(
-        "data-theme",
-        localStorage.getItem("theme")
-      );
+    const savedTheme = localStorage.getItem("theme");
+    const defaultTheme = "ayu-dark";
+    
+    if (savedTheme) {
+      document.documentElement.setAttribute("data-theme", savedTheme);
+    } else {
+      document.documentElement.setAttribute("data-theme", defaultTheme);
+      localStorage.setItem("theme", defaultTheme);
     }
   }, []);
 
