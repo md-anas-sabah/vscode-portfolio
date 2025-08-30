@@ -1,6 +1,7 @@
 import ArticleCard from "../components/ArticleCard";
 import styles from "../styles/ArticlesPage.module.css";
 
+
 const ArticlesPage = ({ articles }) => {
   return (
     <>
@@ -23,9 +24,7 @@ const ArticlesPage = ({ articles }) => {
           url={
             "https://dev.to/mdanassabah/understanding-json-web-tokens-jwt-3n68"
           }
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--EwnV5kiC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/awuv1339bq7ln6orrdec.png"
-          }
+          cover_image={"/jwt.webp"}
           description={
             "JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be transferred between two parties. In web development, JWTs are commonly..."
           }
@@ -36,9 +35,7 @@ const ArticlesPage = ({ articles }) => {
         />
         <ArticleCard
           url={"https://dev.to/mdanassabah/typescript-react-2d4b"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--X8DtWdxA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lk4xyn1glcyerqqs66xe.png"
-          }
+         cover_image={"/typescript.webp"}
           description={
             "You all think why we need TypeScript when we are just happy creating React App using JavaScript. Now, I was at that stage as well but having used TypeScript ..."
           }
@@ -49,9 +46,7 @@ const ArticlesPage = ({ articles }) => {
         />
         <ArticleCard
           url={"https://dev.to/mdanassabah/life-cycle-of-a-component-56cp"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--RDdxoyBw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g1gg7j4clkbh0i84eka7.png"
-          }
+         cover_image={"/life.webp"}
           description={
             "In a React application, a component's lifecycle refers to the various stages it goes through, from the moment it's created to when it's removed from the DOM. "
           }
@@ -62,9 +57,7 @@ const ArticlesPage = ({ articles }) => {
         />
         <ArticleCard
           url={"https://dev.to/mdanassabah/react-redux-4ldk"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--tcZq71xv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ulbh4rjjxhxz4ynowygh.jpg"
-          }
+         cover_image={"/redux.webp"}
           description={
             " Redux is a state container and in any JavaScript application the state of application can change.But what exactly do we mean by state of an application?..."
           }
@@ -75,9 +68,7 @@ const ArticlesPage = ({ articles }) => {
         />
         <ArticleCard
           url={"https://dev.to/mdanassabah/callback-hell-and-promises-4mo1"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--BE_B4Me5--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sh436pszjdyiczpfjpil.jpg"
-          }
+         cover_image={"/hell.webp"}
           description={
             "Callback is a powerful way to do asynchronous thing in JavaScript. It is a function which is to be executed after another function has finished execution."
           }
@@ -88,9 +79,7 @@ const ArticlesPage = ({ articles }) => {
         />
         <ArticleCard
           url={"https://dev.to/mdanassabah/nextjs-next-auth-5856"}
-          cover_image={
-            "https://res.cloudinary.com/practicaldev/image/fetch/s--n8wCV2Oa--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ul5mxl9hasuvd9jnh51f.jpg"
-          }
+          cover_image={"/next.webp"}
           description={
             "Next is a full stack , open source react framework for production application by the company named Vercel."
           }

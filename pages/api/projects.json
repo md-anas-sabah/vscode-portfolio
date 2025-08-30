@@ -6,7 +6,7 @@
     "description": "Dev SyncSpace is a web application designed to facilitate pair programming sessions with random developers.",
     "tags": ["typescript", "next", "node", "postgressql", "tailwind"],
     "source_code": "https://github.com/md-anas-sabah/dev-sync-space",
-    "demo": "https://dev-sync-space-production.up.railway.app/"
+    "demo": "https://dev-finder-six-blond.vercel.app/"
   },
   {
     "id": 2,
